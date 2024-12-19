@@ -44,12 +44,13 @@
     </x-slot>
 
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 relative">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                      <div class="flex flex-col items-center">
 
             <h1 class="hexagon logo bg-[#5694b9] h-40 "><span class="sr-only">Bradfield Consulting Inc</span></h1>
+            <div class="hexagon  bg-[#5694b9] h-60 relative right-40 top-2 "></div>
             <div class="hexagon ana h-52"><span class="sr-only">Ana Bradfield Photo</span></div>
             <h2 class="font-['Windsong'] text-5xl text-white">Ana Bradfield</h2>
             <h3>CRTP Tax Preparer</h3>
@@ -59,7 +60,6 @@
             </div>
         </div>
                 </div>
-            </div>
         </div>
     </div>
 </x-guest-layout>
