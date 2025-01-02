@@ -1,0 +1,31 @@
+<x-guest-layout>
+    <div class="w-full flex flex-col bg-primary-800  p-10 gap-0  text-white ">
+        <h1 class="font-bold text-4xl border-b mb-4 border-white">Colors</h1>
+        <div class="color-family-outline flex flex-col md:flex-row overflow-hidden relative md:space-x-1 space-y-1 md:space-y-0 rounded-lg">
+            <div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(243, 246, 252); color: rgb(32, 58, 90);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(32, 58, 90);"><div class="text-center text-sm font-medium">50</div><div class="text-center text-xs uppercase opacity-90">f3f6fc</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(230, 238, 248); color: rgb(32, 58, 90);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(32, 58, 90);"><div class="text-center text-sm font-medium">100</div><div class="text-center text-xs uppercase opacity-90">e6eef8</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(200, 219, 239); color: rgb(32, 58, 90);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(32, 58, 90);"><div class="text-center text-sm font-medium">200</div><div class="text-center text-xs uppercase opacity-90">c8dbef</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: #6d93b5; color: rgb(32, 58, 90);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(32, 58, 90);">
+                <div class="text-center text-sm font-medium">300</div>
+                <div class="text-center text-xs uppercase opacity-90">97bce2</div>
+            </div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(95, 153, 209); color: rgb(230, 238, 248);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">400</div><div class="text-center text-xs uppercase opacity-90">5f99d1</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(58, 123, 189); color: rgb(230, 238, 248);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">500</div><div class="text-center text-xs uppercase opacity-90">3a7bbd</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(39, 91, 149); color: rgb(230, 238, 248);"><span class="p-2 group cursor-pointer absolute left-1/2 top-2 transform -translate-x-1/2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:hidden w-5 h-5" style="color: rgb(230, 238, 248);"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path></svg><span class="hidden group-hover:inline text-sm" style="color: rgb(230, 238, 248);">Unlock</span></span><!----><div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">600</div><div class="text-center text-xs uppercase opacity-90">275b95</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(35, 78, 129); color: rgb(230, 238, 248);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">700</div><div class="text-center text-xs uppercase opacity-90">234e81</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: #172859; color: rgb(230, 238, 248);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">800</div><div class="text-center text-xs uppercase opacity-90">20436c</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(32, 58, 90); color: rgb(230, 238, 248);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">900</div><div class="text-center text-xs uppercase opacity-90">203a5a</div></div></div></div><div class="h-14 md:h-24 w-full rounded-lg p-2 md:py-4 flex justify-center flex-col relative" style="background-color: rgb(21, 37, 60); color: rgb(230, 238, 248);">
+            <!----><!---->
+            <div class="px-4 md:px-0 md:mt-auto cursor-pointer flex items-center justify-between md:block"><div style="color: rgb(230, 238, 248);"><div class="text-center text-sm font-medium">950</div><div class="text-center text-xs uppercase opacity-90">15253c</div></div></div></div>
+    </div>
+    </div>
+</x-guest-layout>
