@@ -4,7 +4,7 @@
 
 @layer components {
     #why *:nth-child(even),
-    #what *:nth-child(even) {
+    #customers_content *:nth-child(even) {
         @apply text-primary-800;
     }
 }
@@ -14,11 +14,13 @@ html {
     scroll-behavior: smooth;
 }
 
-#to-top {
-    transform: scale(0);
-    transition: bottom 200ms, transform 200ms;
+#to-top.show {
+    @apply scale-100;
 }
 
-#to-top.show {
-    transform: scale(1);
+a.offset-anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }

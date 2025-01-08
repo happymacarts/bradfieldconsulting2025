@@ -1,0 +1,18 @@
+id: 68578
+name: BCon
+environments:
+    production:
+        memory: 1024
+        cli-memory: 512
+        runtime: "php-8.3:al2"
+        # runtime: "docker"
+        database: "bcon"
+        build:
+            - "php artisan app:grep-debug"
+            - "composer install --no-dev"
+            - "php artisan event:cache"
+            - "npm ci && npm run build && rm -rf node_modules"
+            - "php artisan config:cache"
+            - "php artisan route:cache"
+        deploy:
+            - "php artisan migrate --force"

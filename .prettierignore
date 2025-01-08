@@ -1,0 +1,13 @@
+#ignore minimized vapor files
+node_modules
+dist
+.env*
+vendor/
+public/
+resources/views/emails/
+resources/views/mail/
+.git
+**/.git
+package-lock.json
+composer.lock
+storage

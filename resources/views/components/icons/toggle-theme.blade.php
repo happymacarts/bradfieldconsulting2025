@@ -2,11 +2,12 @@
     id="theme-toggle"
     type="button"
     aria-label="Toggle dark/light theme"
-    class="rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+    oldclass="rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:focus:ring-gray-700 ml-2 grow-0 hiddenmd:block"
+    class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none dark:text-gray-500 dark:hover:bg-gray-900 dark:hover:text-gray-400 dark:focus:bg-gray-900 dark:focus:text-gray-400"
 >
     <svg
         id="theme-toggle-dark-icon"
-        class="hidden h-4 w-4"
+        class="hidden h-6 w-6"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +16,7 @@
     </svg>
     <svg
         id="theme-toggle-light-icon"
-        class="hidden h-4 w-4"
+        class="hidden h-6 w-6"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"

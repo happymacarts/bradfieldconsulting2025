@@ -25,7 +25,7 @@ export default {
                     50: "#f3f6fc",
                     100: "#e6eef8",
                     200: "#c8dbef",
-                    300: "#6d93b5", //#97bce2
+                    300: "#79c0e1", //"#6d93b5", //#97bce2
                     400: "#5f99d1",
                     500: "#3a7bbd",
                     600: "#275b95", //brand blue
@@ -39,6 +39,10 @@ export default {
                 negative: colors.red,
                 warning: colors.amber,
                 info: colors.blue,
+            },
+            transitionProperty: {
+                bottom: "bottom",
+                transform: "transform",
             },
         },
     },
