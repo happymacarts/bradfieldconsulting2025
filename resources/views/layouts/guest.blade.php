@@ -10,6 +10,11 @@
             name="csrf-token"
             content="{{ csrf_token() }}"
         />
+        <link
+            rel="icon"
+            type="image/png"
+            href="{{ asset("/images/favicon-96x96.png") }}"
+        />
 
         <title>{{ config("app.name", "Laravel") }}</title>
 
@@ -45,6 +50,10 @@
             src="https://www.googletagmanager.com/gtag/js?id=G-5D3QXY2BM6"
         ></script>
 
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-WR1L9RLKFT"
+        ></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -53,6 +62,7 @@
             gtag('js', new Date());
 
             gtag('config', 'G-5D3QXY2BM6');
+            gtag('config', 'G-WR1L9RLKFT');
         </script>
 
         <!-- MailChimp  -->
@@ -144,32 +154,79 @@
 
                     <div class="subscribe flex flex-col gap-6">
                         <div>
-                            <h4 class="text-xl">Subscribe</h4>
-                            {{--
-                                <div class="flex gap-0">
-                                <x-wireui-input  class="rounded-l rounded-r-none" placeholder="Get updates" name="subscribe"/>
-                                <x-wireui-button class="ml-0 border-l-0 rounded-l-none " info icon="arrow-right"/>
-                                
+                            <div id="mc_embed_shell">
+                                <div id="mc_embed_signup">
+                                    <form
+                                        action="https://bradfieldconsulting.us14.list-manage.com/subscribe/post?u=d75493173ff7f0ed40a6cae8f&amp;id=cb698b19c9&amp;f_id=0050b4e5f0"
+                                        method="post"
+                                        id="mc-embedded-subscribe-form"
+                                        name="mc-embedded-subscribe-form"
+                                        class="validate"
+                                        target="_self"
+                                        novalidate=""
+                                    >
+                                        <div id="mc_embed_signup_scroll">
+                                            <h4 class="text-xl">Subscribe</h4>
+                                            <div
+                                                id="mce-responses"
+                                                class="clear foot"
+                                            >
+                                                <div
+                                                    class="response"
+                                                    id="mce-error-response"
+                                                    style="display: none"
+                                                ></div>
+                                                <div
+                                                    class="response"
+                                                    id="mce-success-response"
+                                                    style="display: none"
+                                                ></div>
+                                            </div>
+                                            <div
+                                                aria-hidden="true"
+                                                style="position: absolute; left: -5000px"
+                                            >
+                                                /* real people should not fill this in and expect good things - do not
+                                                remove this or risk form bot signups */
+                                                <input
+                                                    type="text"
+                                                    name="b_d75493173ff7f0ed40a6cae8f_cb698b19c9"
+                                                    tabindex="-1"
+                                                    value=""
+                                                />
+                                            </div>
+                                            <div class="optionalParent">
+                                                <div class="clear foot">
+                                                    <div class="block items-center gap-4 md:flex md:flex-row">
+                                                        <x-wireui-input
+                                                            id="mce-EMAIL"
+                                                            name="EMAIL"
+                                                            class="required email my-2 rounded"
+                                                            placeholder="add email for updates"
+                                                            icon="envelope-open"
+                                                        >
+                                                            <x-slot name="append">
+                                                                <x-wireui-button
+                                                                    name="subscribe"
+                                                                    id="mc-embedded-subscribe"
+                                                                    type="submit"
+                                                                    class="h-full outline-transparent"
+                                                                    icon="arrow-right"
+                                                                    rounded="rounded-r-md"
+                                                                    primary
+                                                                />
+                                                            </x-slot>
+                                                        </x-wireui-input>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-                            --}}
-                            <x-wireui-input
-                                placeholder="add your email"
-                                description="To Get updates"
-                                icon="envelope-open"
-                                type="email"
-                            >
-                                <x-slot name="append">
-                                    <x-wireui-button
-                                        class="h-full"
-                                        icon="arrow-right"
-                                        rounded="rounded-r-md"
-                                        info
-                                    />
-                                </x-slot>
-                            </x-wireui-input>
+                            </div>
                         </div>
                         <a
-                            class="inline flex gap-2 text-lg text-primary-800 underline hover:no-underline"
+                            class="inline flex cursor-pointer gap-2 text-lg text-primary-800 underline hover:no-underline"
                             underline="always"
                             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult'});return false;"
                             target="blank"
@@ -194,13 +251,13 @@
                             <span>NAICS# 541213</span>
                         </span>
                     </div>
-                    <div>
+                    <div class="hidden md:block">
                         <p class="text-gray-500 dark:text-gray-400">
-                            VERSION
+                            V.
                             {{
                                 config(
                                     "app.version-description",
-                                    "0.1",
+                                    "2025-02-05",
                                 )
                             }}
                         </p>

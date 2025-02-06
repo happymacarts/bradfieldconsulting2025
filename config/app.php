@@ -27,6 +27,7 @@ return [
     */
 
     "env" => env("APP_ENV", "production"),
+    "version-description" => env("APP_VERSION", "2025-0205"),
 
     /*
     |--------------------------------------------------------------------------
