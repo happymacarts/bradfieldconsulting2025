@@ -15,6 +15,31 @@
             type="image/png"
             href="{{ asset("/images/favicon-96x96.png") }}"
         />
+        <meta
+            property="og:image"
+            content="{{ asset("/images/favicon-96x96.png") }}"
+        />
+        <meta
+            property="og:image:width"
+            content="96"
+        />
+        <meta
+            property="og:image:height"
+            content="96"
+        />
+        <meta
+            property="og:url"
+            content="https://bradfieldconsulting.com/"
+        />
+        <meta
+            property="og:title"
+            content="{{ config("app.name", "Laravel") }}"
+        />
+
+        <meta
+            property="og:description"
+            content="Bradfield Consulting, Inc. is a 100% woman and minority-owned remote bookkeeping, tax planning, preparation, and filing service dedicated to empowering small businesses with financial expertise and advocacy."
+        />
 
         <title>{{ config("app.name", "Laravel") }}</title>
 
