@@ -17,7 +17,7 @@
         />
         <meta
             property="og:image"
-            content="{{ asset("/images/favicon-96x96.png") }}"
+            content="{{ asset("/images/favicon-200x200.png") }}"
         />
         <meta
             property="og:image:width"
