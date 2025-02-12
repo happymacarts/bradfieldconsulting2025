@@ -228,7 +228,7 @@
                         <a
                             class="inline flex cursor-pointer gap-2 text-lg text-primary-800 underline hover:no-underline"
                             underline="always"
-                            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult'});return false;"
+                            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult/free_consult'});return false;"
                             target="blank"
                         >
                             <x-wireui-icon name="calendar" />

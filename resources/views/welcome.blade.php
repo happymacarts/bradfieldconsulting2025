@@ -35,7 +35,7 @@
                     primary
                     label="Book a Consultation"
                     class="self-center outline-1 outline-offset-4 outline-primary-300"
-                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult'});return false;"
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult/free_consult'});return false;"
                     target="blank"
                 />
                 <!-- Calendly link widget end -->
@@ -104,7 +104,7 @@
                 label="Book a Consultation Now!"
                 class="inline"
                 underline="always"
-                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult'});return false;"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult/free_consult'});return false;"
                 target="blank"
             />
         </h3>

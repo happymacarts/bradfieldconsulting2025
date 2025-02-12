@@ -84,7 +84,7 @@
     <div class="origin-left scale-100 transition-transform duration-200 hover:scale-125">
         <a
             class="cursor-pointer"
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult'});return false;"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biztaxconsult/free_consult'});return false;"
             target="blank"
             title="Make appointment with Calendly"
         >
